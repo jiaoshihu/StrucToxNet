@@ -21,7 +21,7 @@ pandas==1.5.3
 
 # 3 Running
 
-1.) The input pdb files should be inside input preprocessing directory (examples can be found here Preprocessing/). A detailed preprocessing instructions can be found here, generate all the features
+1.) The input pdb files should be inside input Preprocessing directory. A detailed preprocessing instructions can be found here, generate all the features.
 
 
 2.) Changing working dir to StrucToxNet, and then running the following command:
