@@ -1,4 +1,4 @@
-# PSPred-ALE
+# StrucToxNet
 
 # 1 Description
 
