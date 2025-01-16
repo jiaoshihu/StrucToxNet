@@ -21,10 +21,11 @@ pandas==1.5.3
 
 # 3 Running
 
-Changing working dir to ATGPred-main, and then running the following command:
+1.) The input pdb files should be inside input preprocessing directory (examples can be found here Preprocessing/). A detailed preprocessing instructions can be found here, generate all the features
 
-python main.py -i test.fasta -o prediction_results.csv
 
--i: input file in fasta format
+2.) Changing working dir to StrucToxNet, and then running the following command:
 
--o: output file name
+Run python main.py
+
+
