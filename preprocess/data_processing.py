@@ -23,19 +23,12 @@ def prepare_data_list(datafile):
     return data_list
 
 
-
-
-def create_data_loaders(train_data, test_data, config):
-
-    train_list = prepare_data_list(train_data)
+def create_data_loaders(test_data, config):
     test_list = prepare_data_list(test_data)
-    print(len(train_list))
     print(len(test_list))
-
     dataloader = partial(DataLoader, num_workers=4, batch_size=config.batch_size, shuffle=True, drop_last=False)
-    train_loader = dataloader(train_list)
     test_loader = dataloader(test_list, shuffle=False, drop_last=False)
 
-    return train_loader, test_loader
+    return test_loader
 
 
