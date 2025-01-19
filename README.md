@@ -36,3 +36,4 @@ Run the following commands in your terminal:
 
 - Once preprocessing is completed, return to the main directory.
 - `python main.py`
+- The prediction results will be saved in the `results`.
