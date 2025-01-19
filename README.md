@@ -15,8 +15,11 @@ Run the following commands in your terminal:
 
 ### Step 2: Set Up the Environment with Conda
 
-1. Ensure Miniconda or Anaconda is installed on your system.
-2. Use the `environment.yml` file to create the environment by running:
+1. Use the `environment.yml` file to create the environment by running:
    - `conda env create -f environment.yml`
-3. Activate the environment:
+2. Activate the environment:
    - `conda activate test1`
+
+### Step 4: Preprocessing
+
+- `cd Preprocessing`
