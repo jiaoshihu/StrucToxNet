@@ -23,3 +23,6 @@ Run the following commands in your terminal:
 ### Step 4: Preprocessing
 
 - `cd Preprocessing`
+- Place the PDB files in the following directory ./inputs/pdb/，Place the corresponding FASTA files in the following directory ./inputs
+- Run the preprocessing script to process the data.
+- python 1_preprocess.py
