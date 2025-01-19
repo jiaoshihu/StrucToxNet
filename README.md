@@ -9,12 +9,14 @@ StrucToxNet is a novel computational framework specifically designed to predict 
 
 ### Step 1: Clone the Repository
 
-```bash
-git clone https://github.com/jiaoshihu/StrucToxNet.git
-cd StrucToxNet
-```bash
+Run the following commands in your terminal:
+- `git clone https://github.com/jiaoshihu/StrucToxNet.git`
+- `cd StrucToxNet`
 
 ### Step 2: Set Up the Environment with Conda
 
-conda env create -f environment.yml
-conda activate <test1>
+1. Ensure Miniconda or Anaconda is installed on your system.
+2. Use the `environment.yml` file to create the environment by running:
+   - `conda env create -f environment.yml`
+3. Activate the environment:
+   - `conda activate test1`
