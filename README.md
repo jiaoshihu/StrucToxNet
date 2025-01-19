@@ -23,13 +23,13 @@ Run the following commands in your terminal:
 ### Step 4: Preprocessing
 
 - `cd Preprocessing`
-- `Place the PDB files in the directory ./inputs/pdb/.`
+- Place the PDB files in the directory `./inputs/pdb/.`
 - `Place the corresponding FASTA files in the directory ./inputs/.`
 - `Run the preprocessing script to process the data.`
 
 ```bash
 
-- python 1_preprocess.py -i test_sequences.txt
-- python 2_get_features.py -i test_sequences.txt
-- python 3_get_plm.py -i test_sequences.txt
-- python 4_feature_all.py
+python 1_preprocess.py -i test_sequences.txt
+python 2_get_features.py -i test_sequences.txt
+python 3_get_plm.py -i test_sequences.txt
+python 4_feature_all.py
