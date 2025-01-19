@@ -28,14 +28,10 @@ Run the following commands in your terminal:
 - Run the preprocessing script to process the data.
 
 ```bash
-
 python 1_preprocess.py -i test_sequences.txt
 python 2_get_features.py -i test_sequences.txt
 python 3_get_plm.py -i test_sequences.txt
 python 4_feature_all.py
-
-# Terminate the script before Step 4
-exit
 
 ### Step 4: Preprocessing
 
