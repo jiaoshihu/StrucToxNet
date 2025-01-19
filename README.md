@@ -13,15 +13,7 @@ StrucToxNet is a novel computational framework specifically designed to predict 
 git clone https://github.com/jiaoshihu/StrucToxNet.git
 cd StrucToxNet
 
+### Step 1: Step 2: Set Up the Environment with Conda
 
-
-# 3 Running
-
-1.) The input pdb files should be inside input Preprocessing directory. A detailed preprocessing instructions can be found here, generate all the features.
-
-
-2.) Changing working dir to StrucToxNet, and then running the following command:
-
-Run python main.py
-
-
+conda env create -f environment.yml
+conda activate <test1>
