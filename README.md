@@ -32,5 +32,7 @@ Run the following commands in your terminal:
 - `python 3_get_plm.py -i test_sequences.txt`
 - `python 4_feature_all.py`
 
-### Step 4: Prediction
+### Step 4: Make Prediction
 
+- Once preprocessing is completed, return to the main directory.
+- `python main.py`
