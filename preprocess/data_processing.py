@@ -25,7 +25,6 @@ def prepare_data_list(datafile):
 
 def create_data_loaders(test_data, config):
     test_list = prepare_data_list(test_data)
-    print(len(test_list))
     dataloader = partial(DataLoader, num_workers=4, batch_size=config.batch_size, shuffle=True, drop_last=False)
     test_loader = dataloader(test_list, shuffle=False, drop_last=False)
 
