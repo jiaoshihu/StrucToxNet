@@ -8,9 +8,9 @@ import math
 import numpy as np
 
 
-def cal_dssp_feature(file_name, seq_id):
+def cal_dssp_feature( seq_id):
 
-    file_path = './outputs/{}/dssp/{}.dssp'.format(file_name, seq_id)
+    file_path = './outputs/dssp/{}.dssp'.format( seq_id)
     with open(file_path, 'r') as fd:
         fdlines = fd.readlines()
 

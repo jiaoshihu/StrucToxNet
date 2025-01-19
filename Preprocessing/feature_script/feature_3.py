@@ -24,8 +24,8 @@ def sa_one_hot2(sa):
 # 二级结构（helix, sheet, coil）,溶剂可及性（暴露或埋藏） 3+2=5，是dssp特征, 1 (相对位置) ，总共6维
 
 
-def cal_dssp_feature(pssmfile, seq_id):
-    file_path = './outputs/{}/dssp/{}.dssp'.format(pssmfile, seq_id)
+def cal_dssp_feature(seq_id):
+    file_path = './outputs/dssp/{}.dssp'.format(seq_id)
     with open(file_path, 'r') as fd:
         fdlines = fd.readlines()
 

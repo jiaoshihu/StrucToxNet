@@ -57,8 +57,8 @@ def centroid(pos):
 # ## 距离质心的逆值 (1 维), 二级结构, 溶剂可及性的, 每个特征值除以 360 进行归一化, 1+8+8+5= 22
 
 
-def cal_dssp_feature(file_name, seq_id):
-    file_path = './outputs/{}/dssp/{}.dssp'.format(file_name, seq_id)
+def cal_dssp_feature( seq_id):
+    file_path = './outputs/dssp/{}.dssp'.format(seq_id)
     with open(file_path, 'r') as fd:
         fdlines = fd.readlines()
 

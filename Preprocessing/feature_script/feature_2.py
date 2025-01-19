@@ -1,6 +1,6 @@
 
-def comput_gem_fea(file_name, seq_id, seq):
-    file_path = './outputs/{}/pdb2rr/{}.pdb2rr'.format(file_name, seq_id)
+def comput_gem_fea(seq_id, seq):
+    file_path = './outputs/pdb2rr/{}.pdb2rr'.format(seq_id)
     with open(file_path, 'r') as fdr:
         fdrlines = fdr.readlines()
 

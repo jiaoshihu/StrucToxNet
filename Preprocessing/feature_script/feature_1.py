@@ -74,9 +74,9 @@ def get_residue_area_volume(pos):
 # In[16]:
 
 
-def comput_gem_fea(file_name, seq_id, seq):
+def comput_gem_fea(seq_id, seq):
     length = len(seq)
-    file_path = './inputs/pdb/{}/{}.pdb'.format(file_name, seq_id)
+    file_path = './inputs/pdb/{}.pdb'.format(seq_id)
 
     pos = []
     with open(file_path, 'r') as fm:
