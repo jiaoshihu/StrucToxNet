@@ -33,5 +33,10 @@ python 2_get_features.py -i test_sequences.txt
 python 3_get_plm.py -i test_sequences.txt
 python 4_feature_all.py
 
+
+
+
+
+
 ### Step 4: Preprocessing
 
