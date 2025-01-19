@@ -24,8 +24,8 @@ Run the following commands in your terminal:
 
 - `cd Preprocessing`
 - Place the PDB files in the directory `./inputs/pdb/.`
-- `Place the corresponding FASTA files in the directory ./inputs/.`
-- `Run the preprocessing script to process the data.`
+- Place the corresponding FASTA files in the directory `./inputs/.`
+- Run the preprocessing script to process the data.
 
 ```bash
 
