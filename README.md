@@ -20,7 +20,7 @@ Run the following commands in your terminal:
 2. Activate the environment:
    - `conda activate test1`
 
-### Step 4: Preprocessing
+### Step 3: Preprocessing
 
 - `cd Preprocessing`
 - Place the PDB files in the directory `./inputs/pdb/.`
@@ -33,3 +33,8 @@ python 1_preprocess.py -i test_sequences.txt
 python 2_get_features.py -i test_sequences.txt
 python 3_get_plm.py -i test_sequences.txt
 python 4_feature_all.py
+
+exit
+
+### Step 4: Preprocessing
+
