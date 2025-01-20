@@ -25,11 +25,11 @@ Run the following commands in your terminal:
 - `cd Preprocessing`
 - Place the PDB files in the directory `./inputs/pdb/.`
 - Place the corresponding FASTA files in the directory `./inputs/.`
-- Download the prot_t5 model
-`wget https://zenodo.org/record/4644188/files/prot_t5_xl_uniref50.zip`
-`unzip prot_t5_xl_uniref50.zip`
+- Download the prot_t5 model:
+- `wget https://zenodo.org/record/4644188/files/prot_t5_xl_uniref50.zip`
+- `unzip prot_t5_xl_uniref50.zip`
 
-- Run the preprocessing script to process the data.
+- Run the preprocessing script to process the data:
 
 - `python 1_preprocess.py -i ./inputs/fasta_file`
 - `python 2_get_features.py -i ./inputs/fasta_file`
