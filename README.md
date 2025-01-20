@@ -44,13 +44,13 @@ Run the following commands in your terminal:
 
 
 
-### Contact
+## Contact
 
 For questions or support, please:
 - Open an [Issue](https://github.com/jiaoshihu/StrucToxNet/issues) on the GitHub repository.
 - Email us at: `shihujiao@163.com`.
 
-### Citation
+## Citation
 
 If you use **StrucToxNet** in your research, please cite the following paper:
 
