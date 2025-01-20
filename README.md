@@ -41,3 +41,19 @@ Run the following commands in your terminal:
 - Once preprocessing is completed, return to the main directory.
 - `python main.py`
 - The prediction results will be saved in the `result`.
+
+
+### 5. Contact and Citation
+
+### Contact
+
+For questions or support, please:
+- Open an [Issue](https://github.com/jiaoshihu/StrucToxNet/issues) on the GitHub repository.
+- Email us at: `shihujiao@163.com`.
+
+### Citation
+
+If you use **StrucToxNet** in your research, please cite the following paper:
+
+
+
