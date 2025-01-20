@@ -18,7 +18,7 @@ Run the following commands in your terminal:
 1. Use the `environment.yml` file to create the environment by running:
    - `conda env create -f environment.yml`
 2. Activate the environment:
-   - `conda activate test1`
+   - `conda activate StrucToxNet`
 
 ### Step 3: Preprocessing
 
