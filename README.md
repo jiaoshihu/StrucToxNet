@@ -22,6 +22,10 @@ Run the following commands in your terminal:
 
 ### Step 3: Preprocessing
 
+1. Place PDB files in the following directory:
+```bash
+./inputs/pdb/
+
 - `cd Preprocessing`
 - Place the PDB files in the directory `./inputs/pdb/.`
 - Place the corresponding FASTA files in the directory `./inputs/.`
