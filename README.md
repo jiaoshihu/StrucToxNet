@@ -27,9 +27,9 @@ Run the following commands in your terminal:
 - Place the corresponding FASTA files in the directory `./inputs/.`
 - Run the preprocessing script to process the data.
 
-- `python 1_preprocess.py -i test_sequences.txt`
-- `python 2_get_features.py -i test_sequences.txt`
-- `python 3_get_plm.py -i test_sequences.txt`
+- `python 1_preprocess.py -i ./inputs/test_sequences.txt`
+- `python 2_get_features.py -i ./inputs/test_sequences.txt`
+- `python 3_get_plm.py -i ./inputs/test_sequences.txt`
 - `python 4_feature_all.py`
 
 ### Step 4: Make Prediction
