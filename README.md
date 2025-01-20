@@ -43,7 +43,6 @@ Run the following commands in your terminal:
 - The prediction results will be saved in the `result`.
 
 
-### 5. Contact and Citation
 
 ### Contact
 
