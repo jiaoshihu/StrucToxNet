@@ -22,15 +22,12 @@ Run the following commands in your terminal:
 
 ### Step 3: Preprocessing
 
-1. Place PDB files in the following directory:
-
-````./inputs/pdb/````
-
 - `cd Preprocessing`
 - Place the PDB files in the directory `./inputs/pdb/.`
 - Place the corresponding FASTA files in the directory `./inputs/.`
-- `wget https://zenodo.org/record/4644188/files/prot_t5_xl_uniref50.zip`
-- `unzip prot_t5_xl_uniref50.zip`
+- Download the prot_t5 model
+`wget https://zenodo.org/record/4644188/files/prot_t5_xl_uniref50.zip`
+`unzip prot_t5_xl_uniref50.zip`
 
 - Run the preprocessing script to process the data.
 
